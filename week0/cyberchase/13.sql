@@ -1,0 +1,1 @@
+SELECT "title" FROM "episodes" WHERE "season" BETWEEN 8 AND 12  ORDER BY "TITLE" DESC;
