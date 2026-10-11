@@ -1,0 +1,1 @@
+sqlite> SELECT AVG("height") AS "hight", AVG("weight") AS "weight" FROM "players" WHERE "debut" >= '2000-01-01';  

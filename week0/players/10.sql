@@ -1,0 +1,1 @@
+SELECT "first_name" AS "Retired", "last_name" AS "in 2020" FROM "players" WHERE "final_game" LIKE '2020%'  ORDER BY "first_name", "last_name";

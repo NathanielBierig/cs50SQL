@@ -1,0 +1,1 @@
+sqlite> SELECT Count(id) FROM "players" WHERE "bats" != "throws";
