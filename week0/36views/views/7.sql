@@ -1,0 +1,1 @@
+sqlite> SELECT "english_title"  AS "Hiroshige Brightest" FROM "views" WHERE "artist" = 'Hiroshige' ORDER BY "brightness" DESC LIMIT 5;

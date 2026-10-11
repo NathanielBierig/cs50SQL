@@ -1,0 +1,1 @@
+sqlite> SELECT "english_title", "artist"  AS "complex" FROM "views" ORDER BY "entropy" DESC LIMIT 10;
