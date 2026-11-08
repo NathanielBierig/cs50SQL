@@ -1,0 +1,1 @@
+SELECT "year", "HR" FROM "performances" WHERE "player_id" = (SELECT "id" FROM "players" WHERE "last_name" = 'Griffey'AND "first_name" = 'Ken') ORDER BY "year";      
